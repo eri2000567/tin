@@ -1,12 +1,19 @@
 // ==UserScript==
 // @name         match
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/eri2000567/tin
 // @version      0.1
 // @description  tinder match
 // @author       You
 // @match        https://tinder.com/app/recs
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
+// @updateURL    https://github.com/eri2000567/tin
+// @downloadURL  https://github.com/eri2000567/tin
+// @supportURL   https://github.com/eri2000567/tin
+
+
+
+
 // ==/UserScript==
 
 (function() {
