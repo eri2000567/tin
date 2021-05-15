@@ -82,8 +82,8 @@
             //document.querySelector("body > div:nth-child(2) > div > div > div:nth-child(3) > button:nth-child(2)").click();
             throw new Error('終了します');
         }
-        if (messageexist == "Likeがもうありません！") {
-            //document.querySelector("body > div:nth-child(2) > div > div > div:nth-child(3) > button:nth-child(2)").click();
+        var likestrring = "like";
+        if (likestrring.indexOf('like')) {
             throw new Error('終了します');
         }
         
@@ -91,11 +91,16 @@
 
     function mypopcheck5() {
         var messageexist = document.querySelector("body > div:nth-child(2) > div > div > div:nth-child(1) > div:nth-child(2) > h3").textContent;
-        if (messageexist == "Likeがもうありません！") {
+        var likestrring = "like";
+        if (likestrring.indexOf('like')) {
+            throw new Error('終了します');
+        }
+        if (messageexist == "Like がもうありません！") {
             throw new Error('終了します');
             //return "like max end";
-
         }
+        
+        
     };
 
     function mymycheck() {
