@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         match
 // @namespace    https://github.com/eri2000567/tin
-// @version      1.0.0
+// @version      1.1.0
 // @description  tinder match
 // @author       You
 // @match        https://tinder.com/app/recs
