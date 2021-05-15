@@ -82,8 +82,7 @@
             //document.querySelector("body > div:nth-child(2) > div > div > div:nth-child(3) > button:nth-child(2)").click();
             throw new Error('終了します');
         }
-        var likestrring = "like";
-        if (likestrring.indexOf('like')) {
+        if (messageexist.indexOf('Like') != -1) {
             throw new Error('終了します');
         }
         
@@ -91,8 +90,7 @@
 
     function mypopcheck5() {
         var messageexist = document.querySelector("body > div:nth-child(2) > div > div > div:nth-child(1) > div:nth-child(2) > h3").textContent;
-        var likestrring = "like";
-        if (likestrring.indexOf('like')) {
+        if (messageexist.indexOf('Like') != -1) {
             throw new Error('終了します');
         }
         if (messageexist == "Like がもうありません！") {
