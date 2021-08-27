@@ -7,8 +7,8 @@
 // @match        https://tinder.com/app/recs
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @updateURL    https://github.com/eri2000567/tin/raw/main/tin.user.js
-// @downloadURL  https://github.com/eri2000567/tin/raw/main/tin.user.js
+// @updateURL    https://github.com/eri2000567/tin/raw/master/tin.user.js
+// @downloadURL  https://github.com/eri2000567/tin/raw/master/tin.user.js
 // @supportURL   https://github.com/eri2000567/tin
 
 // ==/UserScript==
